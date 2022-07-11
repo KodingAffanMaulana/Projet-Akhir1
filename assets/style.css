@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #231955;
+}
+
+main {
+    background-color: #1F4690;
+}
+
+aside {
+    background-color: #73A9AD;
+}
+
+nav {
+    display: flex;
+    color: lightblue;
+    background-color: rgb(20, 71, 223);
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+}
+
+nav ul li a {
+    color: lightblue;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav .ikon{
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 3px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+/* landscape desktop */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+    
+}
+
+/* mobile lanscape */
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: none;
+    }
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.burger-menu span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: lightblue;
+    border-radius: 2px;
+}
+
+
+
+
+#foto1 {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    border: 5px solid #F5F0BB;
+}
+
+.jumbotron {
+    padding: 130px;
+    text-align: center;
+    font-size: 30px;
+    color: lightblue;
+    font-family: 'Brush Script MT';
+    line-height: 1cm;
+}
+
+#affan {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
+}
+
+#about {
+    padding: 90px;
+    text-align: justify;
+    font-size: 30px;
+    color: lightblue;
+    line-height: 1cm;
+}
+
+h1 {
+    text-align: center;
+    color: solid white;
+}
+
+#product {
+    padding: 90px;
+    text-align: justify;
+    font-size: 30px;
+    color: lightblue;
+    line-height: 1cm;
+}
+
+#contact {
+    padding: 90px;
+    text-align: justify;
+    font-size: 30px;
+    color: lightblue;
+    line-height: 1cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
